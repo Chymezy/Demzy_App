@@ -1,1 +1,2 @@
-This repo contains all ALX_SE program resources and practice projects 
+This a personal repo where I track all weekly learning resources provided by ALX and update and merge it with the main branch every weekend.
+
