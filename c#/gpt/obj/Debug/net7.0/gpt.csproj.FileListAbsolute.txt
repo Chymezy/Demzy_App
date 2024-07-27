@@ -1,0 +1,14 @@
+/home/chymezy/projects/play_ground/c#/gpt/bin/Debug/net7.0/gpt
+/home/chymezy/projects/play_ground/c#/gpt/bin/Debug/net7.0/gpt.deps.json
+/home/chymezy/projects/play_ground/c#/gpt/bin/Debug/net7.0/gpt.runtimeconfig.json
+/home/chymezy/projects/play_ground/c#/gpt/bin/Debug/net7.0/gpt.dll
+/home/chymezy/projects/play_ground/c#/gpt/bin/Debug/net7.0/gpt.pdb
+/home/chymezy/projects/play_ground/c#/gpt/obj/Debug/net7.0/gpt.GeneratedMSBuildEditorConfig.editorconfig
+/home/chymezy/projects/play_ground/c#/gpt/obj/Debug/net7.0/gpt.AssemblyInfoInputs.cache
+/home/chymezy/projects/play_ground/c#/gpt/obj/Debug/net7.0/gpt.AssemblyInfo.cs
+/home/chymezy/projects/play_ground/c#/gpt/obj/Debug/net7.0/gpt.csproj.CoreCompileInputs.cache
+/home/chymezy/projects/play_ground/c#/gpt/obj/Debug/net7.0/gpt.dll
+/home/chymezy/projects/play_ground/c#/gpt/obj/Debug/net7.0/refint/gpt.dll
+/home/chymezy/projects/play_ground/c#/gpt/obj/Debug/net7.0/gpt.pdb
+/home/chymezy/projects/play_ground/c#/gpt/obj/Debug/net7.0/gpt.genruntimeconfig.cache
+/home/chymezy/projects/play_ground/c#/gpt/obj/Debug/net7.0/ref/gpt.dll

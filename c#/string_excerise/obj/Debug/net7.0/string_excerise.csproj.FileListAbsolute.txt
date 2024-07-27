@@ -1,0 +1,14 @@
+/home/chymezy/projects/play_ground/c#/string_excerise/bin/Debug/net7.0/string_excerise
+/home/chymezy/projects/play_ground/c#/string_excerise/bin/Debug/net7.0/string_excerise.deps.json
+/home/chymezy/projects/play_ground/c#/string_excerise/bin/Debug/net7.0/string_excerise.runtimeconfig.json
+/home/chymezy/projects/play_ground/c#/string_excerise/bin/Debug/net7.0/string_excerise.dll
+/home/chymezy/projects/play_ground/c#/string_excerise/bin/Debug/net7.0/string_excerise.pdb
+/home/chymezy/projects/play_ground/c#/string_excerise/obj/Debug/net7.0/string_excerise.GeneratedMSBuildEditorConfig.editorconfig
+/home/chymezy/projects/play_ground/c#/string_excerise/obj/Debug/net7.0/string_excerise.AssemblyInfoInputs.cache
+/home/chymezy/projects/play_ground/c#/string_excerise/obj/Debug/net7.0/string_excerise.AssemblyInfo.cs
+/home/chymezy/projects/play_ground/c#/string_excerise/obj/Debug/net7.0/string_excerise.csproj.CoreCompileInputs.cache
+/home/chymezy/projects/play_ground/c#/string_excerise/obj/Debug/net7.0/string_excerise.dll
+/home/chymezy/projects/play_ground/c#/string_excerise/obj/Debug/net7.0/refint/string_excerise.dll
+/home/chymezy/projects/play_ground/c#/string_excerise/obj/Debug/net7.0/string_excerise.pdb
+/home/chymezy/projects/play_ground/c#/string_excerise/obj/Debug/net7.0/string_excerise.genruntimeconfig.cache
+/home/chymezy/projects/play_ground/c#/string_excerise/obj/Debug/net7.0/ref/string_excerise.dll

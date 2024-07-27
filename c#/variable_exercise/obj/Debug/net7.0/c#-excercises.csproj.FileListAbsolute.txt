@@ -1,0 +1,14 @@
+/home/chymezy/projects/play_ground/c#/c#-excercises/bin/Debug/net7.0/c#-excercises
+/home/chymezy/projects/play_ground/c#/c#-excercises/bin/Debug/net7.0/c#-excercises.deps.json
+/home/chymezy/projects/play_ground/c#/c#-excercises/bin/Debug/net7.0/c#-excercises.runtimeconfig.json
+/home/chymezy/projects/play_ground/c#/c#-excercises/bin/Debug/net7.0/c#-excercises.dll
+/home/chymezy/projects/play_ground/c#/c#-excercises/bin/Debug/net7.0/c#-excercises.pdb
+/home/chymezy/projects/play_ground/c#/c#-excercises/obj/Debug/net7.0/c#-excercises.GeneratedMSBuildEditorConfig.editorconfig
+/home/chymezy/projects/play_ground/c#/c#-excercises/obj/Debug/net7.0/c#-excercises.AssemblyInfoInputs.cache
+/home/chymezy/projects/play_ground/c#/c#-excercises/obj/Debug/net7.0/c#-excercises.AssemblyInfo.cs
+/home/chymezy/projects/play_ground/c#/c#-excercises/obj/Debug/net7.0/c#-excercises.csproj.CoreCompileInputs.cache
+/home/chymezy/projects/play_ground/c#/c#-excercises/obj/Debug/net7.0/c#-excercises.dll
+/home/chymezy/projects/play_ground/c#/c#-excercises/obj/Debug/net7.0/refint/c#-excercises.dll
+/home/chymezy/projects/play_ground/c#/c#-excercises/obj/Debug/net7.0/c#-excercises.pdb
+/home/chymezy/projects/play_ground/c#/c#-excercises/obj/Debug/net7.0/c#-excercises.genruntimeconfig.cache
+/home/chymezy/projects/play_ground/c#/c#-excercises/obj/Debug/net7.0/ref/c#-excercises.dll

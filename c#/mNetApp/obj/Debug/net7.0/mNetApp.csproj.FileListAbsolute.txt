@@ -1,0 +1,14 @@
+/home/chymezy/projects/play_ground/c#/mNetApp/bin/Debug/net7.0/mNetApp
+/home/chymezy/projects/play_ground/c#/mNetApp/bin/Debug/net7.0/mNetApp.deps.json
+/home/chymezy/projects/play_ground/c#/mNetApp/bin/Debug/net7.0/mNetApp.runtimeconfig.json
+/home/chymezy/projects/play_ground/c#/mNetApp/bin/Debug/net7.0/mNetApp.dll
+/home/chymezy/projects/play_ground/c#/mNetApp/bin/Debug/net7.0/mNetApp.pdb
+/home/chymezy/projects/play_ground/c#/mNetApp/obj/Debug/net7.0/mNetApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/chymezy/projects/play_ground/c#/mNetApp/obj/Debug/net7.0/mNetApp.AssemblyInfoInputs.cache
+/home/chymezy/projects/play_ground/c#/mNetApp/obj/Debug/net7.0/mNetApp.AssemblyInfo.cs
+/home/chymezy/projects/play_ground/c#/mNetApp/obj/Debug/net7.0/mNetApp.csproj.CoreCompileInputs.cache
+/home/chymezy/projects/play_ground/c#/mNetApp/obj/Debug/net7.0/mNetApp.dll
+/home/chymezy/projects/play_ground/c#/mNetApp/obj/Debug/net7.0/refint/mNetApp.dll
+/home/chymezy/projects/play_ground/c#/mNetApp/obj/Debug/net7.0/mNetApp.pdb
+/home/chymezy/projects/play_ground/c#/mNetApp/obj/Debug/net7.0/mNetApp.genruntimeconfig.cache
+/home/chymezy/projects/play_ground/c#/mNetApp/obj/Debug/net7.0/ref/mNetApp.dll
