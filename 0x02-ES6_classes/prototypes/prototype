@@ -1,0 +1,18 @@
+What are Prototypes in JavaScript?
+-----------------------------------
+
+In JavaScript, a prototype is an object that is used as a blueprint for creating other objects. Every object in JavaScript has a prototype, and this prototype is used to inherit properties and behavior from another object. Prototypes are a fundamental concept in JavaScript and are used extensively in object-oriented programming.
+
+The Object Prototype
+------------------------
+
+In JavaScript, all objects are instances of the Object prototype. This means that every object in JavaScript inherits from the Object prototype, and has access to its properties and methods. The Object prototype is the root of the prototype chain, and all objects in JavaScript are connected to it.
+
+Inheritance and the Prototype Chain
+------------------------------------------
+In JavaScript, objects can inherit properties and behavior from other objects through the prototype chain. The prototype chain is a series of objects that are connected through their prototypes, with the Object prototype at the root. When an object is created, it inherits properties and methods from its prototype, and can also inherit from its prototype's prototype, and so on.
+
+Comparison with Python
+-----------------------
+
+JavaScript's prototype-based inheritance is different from Python's class-based inheritance. In Python, objects are instances of classes, and classes are defined using a syntax similar to JavaScript's constructor functions. However, Python's classes are not prototypes, and objects do not inherit from a universal base class like Object.

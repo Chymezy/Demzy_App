@@ -1,0 +1,84 @@
+await handles both the resolved (fulfilled) and rejected states of a promise. When you use await, it pauses the execution of the asynchronous function until the promise is settled (either resolved or rejected).
+
+Example: Handling Both States with await
+
+Here's an example that demonstrates handling both resolved and rejected states of a promise using await:
+
+javascript
+
+async function exampleFunction() {
+  try {
+    const result = await somePromise(); // Wait for the promise to resolve
+    console.log('Promise resolved with:', result); // Handle the resolved value
+  } catch (error) {
+    console.error('Promise rejected with:', error); // Handle the rejection error
+  }
+}
+
+
+The main differences between Promise.all() and Promise.allSettled() are how they handle promise resolution and rejection.
+Promise.all()
+
+    Behavior:
+        Promise.all() takes an iterable of promises and returns a single Promise that resolves when all of the promises in the iterable have resolved or when the iterable contains no promises.
+        It rejects immediately upon any of the input promises rejecting, and the rejection reason will be the reason of the first promise that rejects.
+
+    Use Case:
+        Use Promise.all() when you want to wait for all promises to resolve and if any of them fail, you want to handle the error immediately.
+
+    Example:
+
+    javascript
+
+    const promise1 = Promise.resolve(3);
+    const promise2 = new Promise((resolve, reject) => setTimeout(resolve, 100, 'foo'));
+    const promise3 = Promise.resolve(42);
+
+    Promise.all([promise1, promise2, promise3]).then((values) => {
+      console.log(values); // [3, 'foo', 42]
+    }).catch((error) => {
+      console.error(error);
+    });
+
+    Error Handling:
+        If any promise rejects, Promise.all() rejects immediately, and the rest of the promises are not waited for.
+
+Promise.allSettled()
+
+    Behavior:
+        Promise.allSettled() takes an iterable of promises and returns a Promise that resolves after all of the given promises have either resolved or rejected, with an array of objects that each describe the outcome of each promise.
+
+    Use Case:
+        Use Promise.allSettled() when you want to wait for all promises to settle (i.e., either resolve or reject) and you need to know the outcome of each promise regardless of whether they succeeded or failed.
+
+    Example:
+
+    javascript
+
+    const promise1 = Promise.resolve(3);
+    const promise2 = new Promise((resolve, reject) => setTimeout(reject, 100, 'foo'));
+    const promise3 = Promise.resolve(42);
+
+    Promise.allSettled([promise1, promise2, promise3]).then((results) => {
+      results.forEach((result) => console.log(result.status));
+      // "fulfilled"
+      // "rejected"
+      // "fulfilled"
+    });
+
+    Error Handling:
+        Promise.allSettled() does not reject upon a single promise failure. Instead, it waits for all promises to settle and provides an array of outcomes, allowing you to handle both successes and failures as needed.
+
+Key Differences:
+
+    Rejection Behavior:
+        Promise.all() rejects as soon as one promise in the iterable rejects.
+        Promise.allSettled() never rejects. It waits for all promises to settle, regardless of whether they resolve or reject.
+
+    Output:
+        Promise.all() returns an array of resolved values if all promises succeed.
+        Promise.allSettled() returns an array of objects, each indicating the status (fulfilled or rejected) and the corresponding value or reason.
+
+Conclusion:
+
+Choose Promise.all() if you want to fail fast and handle errors immediately. Use Promise.allSettled() if you need to know the outcome of each promise, regardless of whether they resolved or rejected.

@@ -1,0 +1,9 @@
+Class Expressions
+
+What It Is:
+
+    Classes can also be defined using expressions, which can be named or unnamed.
+
+How to Use:
+
+    Define a class as an expression assigned to a variable.

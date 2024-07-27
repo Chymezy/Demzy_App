@@ -1,0 +1,10 @@
+Abstract Base Classes
+
+What It Is:
+
+    JavaScript doesn't have built-in abstract classes, but you can create them by throwing errors in the base class to prevent it from being instantiated directly.
+
+How to Use:
+
+    Define a base class and throw an error in its constructor.
+    Extend the base class to create subclasses.

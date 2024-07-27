@@ -1,0 +1,10 @@
+Static Methods
+
+What It Is:
+
+    Static methods belong to the class itself, not instances of the class.
+    They are called on the class, not on objects created from the class.
+
+How to Use:
+
+    Use the static keyword to define a static method.

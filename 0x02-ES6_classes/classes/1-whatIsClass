@@ -1,0 +1,12 @@
+Class Definition
+
+What It Is:
+
+    A class is like a blueprint for creating objects (like how a blueprint of a house guides the construction of many houses).
+    In JavaScript, you define a class using the class keyword.
+
+How to Use:
+
+    Use the class keyword to start the class definition.
+    Use a constructor method to initialize the object's properties when you create an instance of the class.
+

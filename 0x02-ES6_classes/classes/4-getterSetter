@@ -1,0 +1,10 @@
+Getters and Setters
+
+What It Is:
+
+    Getters and setters are special methods to access and update the properties of an object.
+
+How to Use:
+
+    Use the get keyword to define a getter method.
+    Use the set keyword to define a setter method.

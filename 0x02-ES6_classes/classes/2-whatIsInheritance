@@ -1,0 +1,11 @@
+Inheritance
+
+What It Is:
+
+    Inheritance allows a class to inherit properties and methods from another class.
+    The extends keyword is used to create a subclass (child class) from a superclass (parent class).
+
+How to Use:
+
+    Use extends to create a subclass.
+    Use super() to call the parent class's constructor inside the subclass's constructor.

@@ -1,0 +1,10 @@
+Private Fields
+
+What It Is:
+
+    Private fields are properties that cannot be accessed outside the class.
+    They are defined with a # before the property name.
+
+How to Use:
+
+    Use # before a property name to make it private.
