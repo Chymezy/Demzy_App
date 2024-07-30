@@ -1,0 +1,23 @@
+What is Typed-Array?
+Typed array is simply a specialized array that stores objects of a specific 
+type in memory buffer. This used to write or read raw binary data into buffer memory
+
+Buffer: is a small chuck of object that holds object binary data in memory.
+we have two types of buffers: 
+1. ArrayBuffer: A simple buffer for raw binary data.
+2. SharedArrayBuffer: A buffer that can be accessed by multiple execution contexts, 
+suitable for use in multithreaded environments.
+
+Views:
+Views provide a context for accessing data in a buffer. There are two main 
+kinds of views:
+
+1. Typed array views: These provide a specific data type and offer methods similar to standard arrays, 
+    like Int8Array, Uint32Array, Float64Array, etc.
+2. DataView: Offers low-level control over buffer data, allowing for reading and writing data with different formats.
+
+Typed Array Characteristics
+-------------------------------
+    1. Typed arrays cannot be resized directly; they are fixed-length.
+    2. Methods like push, pop, splice, etc., are unavailable for typed arrays.
+    3. Typed arrays have methods like set and subarray for efficient data manipulation.
