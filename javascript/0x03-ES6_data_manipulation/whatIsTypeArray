@@ -2,11 +2,20 @@ What is Typed-Array?
 Typed array is simply a specialized array that stores objects of a specific 
 type in memory buffer. This used to write or read raw binary data into buffer memory
 
-Buffer: is a small chuck of object that holds object binary data in memory.
+BUFFERS: 
+----------
+is a small chuck of object that holds object binary data in memory.
+There are two types of buffers: ArrayBuffer and SharedArrayBuffer. Both are low-level representations of a memory span. They have "array" in their names, but they don't have much to do with arrays — you cannot read or write to them directly. Instead, buffers are generic objects that just contain raw data. In order to access the memory represented by a buffer, you need to use a view.
 we have two types of buffers: 
 1. ArrayBuffer: A simple buffer for raw binary data.
 2. SharedArrayBuffer: A buffer that can be accessed by multiple execution contexts, 
 suitable for use in multithreaded environments.
+
+Buffers supports the following actions:
+1. Allocate: as soon as a new buffer is created, a new buffer is allocated and initized to 0.
+2. Copy: using slice() method, we can copy portions of buffer without creating views.
+3. Transfer: using transfer() and transferToFixedLength() methods, we can transfer the buffer memory span ownership to new buffer object. note a sharedArrayBuffer can not be transferred bcos is alread shared by all execution context.
+4. Resize: using the resize() method we can the memory span. note sharedArrayBuffer can only grow not shrunck.
 
 Views:
 Views provide a context for accessing data in a buffer. There are two main 
