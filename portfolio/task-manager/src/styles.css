@@ -1,0 +1,18 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .MuiCard-root {
+    margin-bottom: 16px;
+  }
+  
+  .MuiCardContent-root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .MuiButton-containedPrimary {
+    margin-top: 16px;
+  }
+  
